@@ -1,4 +1,4 @@
-     localhost:25002/data-access/banking/create_client
+     localhost:8889/data-access/banking/create_client
      {
     	"firstName":"boubacar",
     	"lastName":"ndiaye",
@@ -12,7 +12,7 @@
 
 
 
- localhost:25002/data-access/banking/create_account
+ localhost:8889/data-access/banking/create_account
  {
     
 		"type_compte":"livret A",
@@ -31,7 +31,7 @@
     
     
     
-    localhost:25002/data-access/banking/deposer_retirer/montant=190
+    localhost:8889/data-access/banking/deposer_retirer/montant=190
 
 {		"id":"1",
 		"type_compte":"livret A",
