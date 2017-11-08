@@ -1,0 +1,43 @@
+     localhost:25002/data-access/banking/create_client
+     {
+    	"firstName":"boubacar",
+    	"lastName":"ndiaye",
+    	"tel":"12334453545",
+    	"adresse":" 16 av",
+    	"compte":[{
+    	"id":1
+    	}]
+    	
+    }
+
+
+
+ localhost:25002/data-access/banking/create_account
+ {
+    
+		"type_compte":"livret A",
+		"numero_compte":"dEDE35",
+		"solde":200,
+		
+	   "client":	{"id":1,
+				"firstName":"boubacar",
+    	        "lastName":"ndiaye",
+    	"tel":"123",
+    	"adresse":" 16 av"
+		}
+    	
+    }
+    
+    
+    
+    
+    localhost:25002/data-access/banking/deposer_retirer/montant=190
+
+{		"id":"1",
+		"type_compte":"livret A",
+		"numero_compte":"dEDE35",
+		
+	   "client":{"id":"1"}
+	   
+    	
+    }
